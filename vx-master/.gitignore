@@ -1,0 +1,47 @@
+.DS_Store
+*.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Cache
+.bundle/
+.eslintcache/
+.happo/
+.idea/
+.next/
+.npm/
+.vscode/
+
+# Directories
+build/
+coverage/
+dist/
+esm/
+lib/
+node_modules/
+tmp/
+
+# Custom
+*.min.js
+*.map
+
+# Configs (provided by Nimbus)
+.babelrc
+.eslintignore
+.eslintrc.js
+.flowconfig
+.prettierignore
+babel.config.js
+jest.config.js
+prettier.config.js
+tsconfig.eslint.json
+tsconfig.json
+tsconfig.options.json
+*.tsbuildinfo
+webpack.config.js
+
+# Lock files
+npm-shrinkwrap.json
+package-lock.json 

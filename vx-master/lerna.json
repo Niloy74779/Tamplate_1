@@ -1,0 +1,14 @@
+{
+  "lerna": "3.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.198",
+  "command": {
+    "publish": {
+      "allowBranch": "master"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
